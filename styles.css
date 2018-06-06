@@ -47,6 +47,25 @@
 	                background-color: #4CAF50
 }
 
+
+.jornal{
+	-webkit-column: 3; /*Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	-column-gap: 40px;	
+
+	-webkit-column-rule: 1px solid lightblue;
+	-moz-column-rule: 1px solid lightblue;
+	column-rule: 1px solid lightblue;	
+}
+
 </style>
 
 </head>
+
+
+
+
